@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📊 Responsive Trade Table UI
 
-## Getting Started
+This project showcases a responsive and modern trade order table built using **Next.js**, **TypeScript**, and **Tailwind CSS**. The table displays trading data with sortable headers, real-time status indicators, and pagination controls.
 
-First, run the development server:
+## 🔧 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Next.js**: Framework for React-based web applications with built-in routing and server-side rendering.
+- **TypeScript**: Enhances JavaScript with type safety and improved developer experience.
+- **Tailwind CSS**: Utility-first CSS framework used for rapid UI development and responsive design.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 📱 **Fully Responsive UI**: 
+  - Designed to work seamlessly across mobile, tablet, and desktop screens.
+  - Horizontal scrolling enabled for small devices using `overflow-x-auto`.
+  
+- 📐 **Table Layout**:
+  - Displays trade information such as time, client, ticker, side, product, quantity, and price.
+  - Includes action buttons and pagination controls.
+  - Mobile-optimized with `flex`, `gap`, `whitespace-nowrap`, and Tailwind responsive breakpoints.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🎨 **Modern UI Styling**:
+  - Utilizes Tailwind classes for clean and minimalistic design.
+  - Styled headings, hover effects, and status indicators.
 
-## Learn More
+## 📁 Folder Structure
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
