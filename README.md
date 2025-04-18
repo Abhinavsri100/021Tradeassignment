@@ -23,5 +23,5 @@ This project showcases a responsive and modern trade order table built using **N
   - Utilizes Tailwind classes for clean and minimalistic design.
   - Styled headings, hover effects, and status indicators.
 
-## 📁 Folder Structure
+
 
